@@ -1,0 +1,22 @@
+#card-area{
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 5px;
+    width: 100px;
+    height: 150px;
+    cursor: pointer;
+    transform:rotateY(180deg);
+}
+img{
+    width: 100px;
+    height: 150px;
+    object-fit:contain;
+    transition: transform 0.5s cubic-bezier(0.2, 0, 0, 1);
+}
